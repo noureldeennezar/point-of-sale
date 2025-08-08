@@ -1,0 +1,46 @@
+name: smart_pos
+description: "A Point of sale application that provide a simple modern UI and cloud syncing functionality , provide shift records , saves history for orders and provide admin or casher account type for security"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: any
+  flutter_layout_grid: any
+  uuid: any
+  another_flushbar: ^1.12.30
+  pay: ^1.0.0
+  flutter_paypal : any
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  connectivity_plus: ^6.0.5
+  barcode_scan2: ^4.2.4
+  flutter_barcode_listener: ^0.1.4
+  dropdown_search: ^5.0.6
+  flutter_stripe: ^11.0.0
+  fuzzy: ^0.5.1
+  photo_view: ^0.14.0
+  qr_flutter: ^4.0.0
+  sqflite: any
+  material: ^1.0.0+2
+  sqflite_common_ffi: ^2.0.0+1
+  intl: ^0.20.2
+  path: any
+  path_provider: any
+  provider: any
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

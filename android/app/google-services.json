@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968106175855",
+    "project_id": "point-of-service-f06f6",
+    "storage_bucket": "point-of-service-f06f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968106175855:android:80804c7a5e0cc51cc8cc9a",
+        "android_client_info": {
+          "package_name": "com.smartup.zpos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx1AFQF7ooV1_Hx5esSuBPYcFGi0jcjBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

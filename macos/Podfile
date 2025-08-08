@@ -1,0 +1,17 @@
+platform :osx, '10.15'
+
+target 'Runner' do
+  use_frameworks!
+  pod 'Firebase/Firestore' # Add for Firestore, or other services as needed
+  # Add other Firebase pods, e.g.:
+  # pod 'Firebase/Auth'
+  # pod 'Firebase/Storage'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.15'
+    end
+  end
+end
