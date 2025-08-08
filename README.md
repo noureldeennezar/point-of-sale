@@ -1,10 +1,10 @@
-# zpos
+# SmartPOS
 
-pos application
+POS application
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a point of sale (POS) application that allows users to manage their checkouts in stores easily .
 
 A few resources to get you started if this is your first Flutter project:
 
