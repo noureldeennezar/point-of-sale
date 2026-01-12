@@ -1,0 +1,61 @@
+name: smart_pos
+description: "A Point of Sale (POS) application built with Flutter, designed to streamline checkout processes for stores. It provides an intuitive interface for managing transactions, inventory, and sales, making it ideal for small to medium-sized retail businesses"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  another_flushbar: ^1.12.30
+  barcode_scan2: ^4.2.4
+  cloud_firestore: ^5.4.4
+  connectivity_plus: ^6.0.5
+  cupertino_icons: ^1.0.8
+  dropdown_search: ^5.0.6
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  flutter:
+    sdk: flutter
+  flutter_barcode_listener: ^0.1.4
+  flutter_layout_grid: any
+  flutter_localizations:
+    sdk: flutter
+  flutter_paypal: any
+  flutter_stripe: ^11.0.0
+  fuzzy: ^0.5.1
+  http: any
+  intl: ^0.20.2
+  material: ^1.0.0+2
+  path: any
+  path_provider: any
+  firebase_dart: ^1.5.3
+  pay: ^1.0.0
+  photo_view: ^0.14.0
+  provider: any
+  qr_flutter: ^4.0.0
+  sqflite: any
+  sqflite_common_ffi: ^2.0.0+1
+  uuid: any
+  shared_preferences: ^2.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/splash.png
