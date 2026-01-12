@@ -17,7 +17,12 @@ SmartPOS is a **Flutter-based Point of Service (POS) application** designed to h
 
 ## Screenshots
 
-*Add screenshots here of the app UI if possible, e.g., Home Screen, Order Screen, Inventory Screen.*
+*Home Screen*
+<img width="1920" height="1020" alt="Screenshot 2026-01-12 021749" src="https://github.com/user-attachments/assets/d4580533-d56b-4a59-842e-2761cb33c8a8" />
+*Order Screen*
+<img width="1920" height="1020" alt="Screenshot 2026-01-12 022041" src="https://github.com/user-attachments/assets/95723c0f-a24d-43d1-b5ae-0f5b4bb21ee9" />
+*Shift Screen*
+<img width="1920" height="1020" alt="Screenshot 2026-01-12 022100" src="https://github.com/user-attachments/assets/f9c3f9ac-636e-4409-9e67-1c54b6478de0" />
 
 ---
 
